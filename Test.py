@@ -1,0 +1,27 @@
+
+import R_BTree
+if __name__ == "__main__":
+    Tree2 =R_BTree.R_BTree(10, "10")
+    Tree2.insert(7, "7")
+    Tree2.insert(4, "4")
+    Tree2.insert(9, "9")
+    Tree2.insert(16, "16")
+    Tree2.insert(12, "12")
+    Tree2.insert(20, "20")
+    Tree2.insert(14, "14")
+    Tree2.insert(19, "19")
+    Tree2.insert(26, "26")
+    Tree2.draw()
+
+    # Tree3=BinarySearchTree.DSABinarySearchTree(100,"100")
+    # Tree3.insert(90, "90")
+    # Tree3.insert(80, "80")
+    # Tree3.insert(70, "70")
+    # Tree3.insert(60, "60")
+    # Tree3.insert(50, "50")
+    # Tree3.insert(40, "40")
+    # Tree3.insert(30, "30")
+    # Tree3.insert(20, "20")
+    # Tree3.insert(10, "10")
+    # Tree3.insert(5, "5")
+    # Tree3.draw()
